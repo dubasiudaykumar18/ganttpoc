@@ -1,3 +1,19 @@
+I have followed 
+https://github.com/frappe/gantt/issues/105
+
+Getting while running the system 
+ERROR TypeError: node_modules_frappe_gantt__WEBPACK_IMPORTED_MODULE_2__.Gantt is not a constructor
+    at AppComponent.push../src/app/app.component.ts.AppComponent.ngOnInit (app.component.ts:73)
+    at checkAndUpdateDirectiveInline (core.js:22099)
+    at checkAndUpdateNodeInline (core.js:23363)
+    at checkAndUpdateNode (core.js:23325)
+    at debugCheckAndUpdateNode (core.js:23959)
+    at debugCheckDirectivesFn (core.js:23919)
+    at Object.eval [as updateDirectives] (AppComponent_Host.ngfactory.js? [sm]:1)
+    at Object.debugUpdateDirectives [as updateDirectives] (core.js:23911)
+    at checkAndUpdateView (core.js:23307)
+    at callWithDebugContext (core.js:24177)
+
 # Ganttpoc
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
